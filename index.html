@@ -4,12 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>OTA embed test</title>
-  <style>body{font-family:system-ui,sans-serif;max-width:960px;margin:2rem auto;padding:0 16px}</style>
+  <style>body{font-family:system-ui,sans-serif;max-width:960px;margin:2rem auto;padding:0 16px}h2{margin-top:2rem}</style>
 </head>
 <body>
   <h1>Client test page</h1>
   <p>Travlr OTA search widget embed test.</p>
+  <h2>Staging widget (freya)</h2>
   <div data-travlr-ota></div>
+  <h2>Production widget</h2>
+  <p>On its own page in a frame: the loader shows one storefront per page.</p>
+  <iframe src="production.html" title="Production widget" style="width:100%;height:720px;border:0"></iframe>
   <script async src="https://static.freya.travlr.com/widgets/loader.js" data-key="tvl_pk_fWENaTEuIRhGL0jxlOmwT"></script>
 </body>
 </html>
