@@ -3,15 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OTA embed test</title>
-  <style>body{font-family:system-ui,sans-serif;max-width:960px;margin:2rem auto;padding:0 16px}h2{margin-top:2rem}iframe{width:100%;height:720px;border:0}</style>
+  <title>OTA embed staging</title>
+  <style>body{font-family:system-ui,sans-serif;max-width:960px;margin:2rem auto;padding:0 16px}</style>
 </head>
 <body>
   <h1>Client test page</h1>
-  <p>Travlr OTA search widget embed test. Both widgets sit in same-width frames (the loader shows one storefront per page), so they render the same way.</p>
+  <p>Travlr OTA search widget embed test. One storefront per page: <a href="production.html">Production widget</a>.</p>
   <h2>Staging widget (freya)</h2>
-  <iframe src="staging.html" title="Staging widget"></iframe>
-  <h2>Production widget</h2>
-  <iframe src="production.html" title="Production widget"></iframe>
+  <div data-travlr-ota></div>
+  <script async src="https://static.freya.travlr.com/widgets/loader.js" data-key="tvl_pk_fWENaTEuIRhGL0jxlOmwT"></script>
 </body>
 </html>
